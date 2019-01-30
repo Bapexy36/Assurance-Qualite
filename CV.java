@@ -78,4 +78,16 @@ public class CV {
 		
 		afficher();
 	}
+	
+	public static void afficher() {
+		
+		String informations = "\nNom: " + getNom() + ""
+				+ "\nPrenom: " + getPrenom()
+				+ "\nFormation: " + getFormation()
+				+ "\nExpérience de travail (nombre d'années) :" + getNbAnnees()
+				+ "\nCompetences: " + getCompetences()
+				+ "\nAttentes vis à vis le cours 4B4: " + getAttentes();
+		
+		System.out.println(informations);
+	
 }
