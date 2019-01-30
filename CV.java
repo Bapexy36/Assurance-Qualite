@@ -56,4 +56,26 @@ public class CV {
 		return attentes;
 	}
 	
+	public void main(String[] args) {
+		
+		System.out.println("Bienvenue chez Barette!");
+		
+		setNom("Létourneau");
+		setPrenom("Charles");
+		setFormation("Informatique de Gestion");
+		setNbAnnees(6);
+		setCompetences(competences = new String[] {"Proactif", "Le sens des priorités"});
+		setAttentes("Passer le cours");
+		
+		afficher();
+		
+		setNom("Grecu");
+		setPrenom("Ioana");
+		setFormation("Informatique de Gestion");
+		setNbAnnees(4);
+		setCompetences(competences = new String[] {"Travailler en équipe", "Gère bien mon temps"});
+		setAttentes("Je n'ai pas d'attente");
+		
+		afficher();
+	}
 }
